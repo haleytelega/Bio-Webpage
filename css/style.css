@@ -1,0 +1,14 @@
+/* Header Section */
+header{
+    background-color: black;
+    font-family: Helvetica, Arial, sans-serif;
+} 
+
+header h1 {
+    color: white;
+}
+
+header nav ul li {
+    color: whitesmoke;
+    font-weight: bold;
+}
