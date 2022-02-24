@@ -2,6 +2,10 @@
 header{
     background-color: black;
     font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 35px;
 } 
 
 header h1 {
@@ -11,4 +15,20 @@ header h1 {
 header nav ul li {
     color: whitesmoke;
     font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
+
+header a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+.hero {
+    background-image: url("./images/Light-Wood-Background-Texture-1.jpg")
+}
+
