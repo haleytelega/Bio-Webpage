@@ -6,6 +6,7 @@ header{
     padding: 10px;
     background-color: black;
     font-family: Helvetica, Arial, sans-serif;
+    margin-bottom: 10px;
 } 
 
 header h1 {
@@ -46,15 +47,35 @@ footer h2 {
     font-size: 50px;
 }
 
+.info {
+    color: whitesmoke;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.info a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.info address {
+    font-style: normal;
+}
+
+
 /* Hero Section */
 .hero {
     background-image: url("./images/Light-Wood-Background-Texture-1.jpg");
-    padding-bottom: 150px;
+    padding-bottom: 50px;
 }
 
 .hero p {
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
+    bottom: 100px;
 }
 
 /* About Me */
@@ -67,12 +88,16 @@ footer h2 {
     color:black;
     font-weight: bold;
     font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* My Work section */
 .work {
     background-color: white;
     padding-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .work h2 {
