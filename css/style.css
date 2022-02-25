@@ -54,17 +54,23 @@ footer h2 {
     padding-left: 30px;
 }
 
+footer div address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+footer div address a {
+    padding: 20px;
+    font-size: 20px;
+    margin-right: 30px;
+    color: whitesmoke;
+    text-decoration: none;
+}
 .info {
     color: whitesmoke;
     font-size: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-}
-
-.info a {
-    color: whitesmoke;
-    text-decoration: none;
 }
 
 .info address {
@@ -75,9 +81,16 @@ footer h2 {
 /* Hero Section */
 .hero {
     background-image: url("./images/Light-Wood-Background-Texture-1.jpg");
+    background-size: cover;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    justify-content: flex-end;
+}
+
+.hero p {
+    padding-top: 50px;
+    font-size: 50px;
+
 }
 
 
