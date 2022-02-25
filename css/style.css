@@ -3,7 +3,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 10px;
+    padding: 20px;
     background-color: black;
     font-family: Helvetica, Arial, sans-serif;
     margin-bottom: 10px;
@@ -11,18 +11,23 @@ header{
 
 header h1 {
     color: white;
+    font-size: 40px;
     font-weight: normal;
     text-align: center;
 }
 
-header nav ul li {
+header nav ul {
     color: whitesmoke;
     font-weight: bold;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 20px;
+    font-size: 20px;
 }
 
 header a {
@@ -37,14 +42,16 @@ body {
 /* footer section */
 footer {
     background-color: black;
-    padding-left: 30px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 footer h2 {
     color: whitesmoke;
     font-weight: bold;
     font-size: 50px;
+    padding-left: 30px;
 }
 
 .info {
@@ -68,15 +75,11 @@ footer h2 {
 /* Hero Section */
 .hero {
     background-image: url("./images/Light-Wood-Background-Texture-1.jpg");
-    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
-.hero p {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    bottom: 100px;
-}
 
 /* About Me */
 .intro {
