@@ -1,3 +1,4 @@
+
 /* Header Section */
 header{
     display: flex;
@@ -7,6 +8,7 @@ header{
     background-color: black;
     font-family: Helvetica, Arial, sans-serif;
     margin-bottom: 10px;
+    align-items: center;
 } 
 
 header h1 {
@@ -45,13 +47,17 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 footer h2 {
     color: whitesmoke;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 100px;
     padding-left: 30px;
+    border-right: 3px solid white;
+    height: 150px;
+    padding-right: 50px;
 }
 
 footer div address {
@@ -97,16 +103,22 @@ footer div address a {
 /* About Me */
 .intro {
     background-color: white;
-    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .intro h2 {
-    color:black;
+    color: black;
     font-weight: bold;
-    font-size: 50px;
-    display: flex;
-    flex-wrap: wrap;
+    font-size: 100px;
+    padding-left: 30px;
+    border-right: 3px solid black;
+    height: 150px;
+    padding-right: 50px;
 }
+
 
 /* My Work section */
 .work {
@@ -117,7 +129,11 @@ footer div address a {
 }
 
 .work h2 {
-    color:black;
+    color: black;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 100px;
+    padding-left: 30px;
+    border-right: 3px solid black;
+    height: 150px;
+    padding-right: 50px;
 }
